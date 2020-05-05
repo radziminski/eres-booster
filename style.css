@@ -1,0 +1,161 @@
+.navbar-brand {
+    display: none;
+}
+
+.navbar {
+    background-color: transparent;
+    background-image: linear-gradient(to right, #548BB0, #2D787C);
+    color: #fff;
+    padding: 12px 100px 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    padding-right: 100px;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 2px;
+    transition: width 0.2s;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+}
+
+.nav-item:hover {
+    background-color: transparent;
+}
+
+.nav-link img {
+    display: none;
+}
+
+.active {
+    background-color: transparent;
+}
+
+.s3-logout a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.s3-logout:hover {
+    background-color: transparent;
+}
+
+.s3-logout a:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 2px;
+    transition: width 0.2s;
+}
+
+.s3-logout:hover a:after {
+    width: 100%;
+}
+
+.s3-logout {
+    padding-top: 6px;
+    color: transparent;
+}
+
+#page_prev_a {
+    color: white;
+    margin: 0;
+    padding: 8px;
+    display: inline-block;
+    width: 14%;
+}
+
+#page_prev_a:after {
+    display: none;
+}
+
+#page_prev_txt {
+    color: white;
+    text-align: center;
+    transform: translateY(3px);
+}
+
+#page_next_a {
+    color: white;
+    height: 100%;
+    padding: 8px;
+    float: right;
+    width: 14%;
+}
+
+#page_next_txt {
+    color: white;
+    text-align: center;
+    transform: translateY(3px);
+}
+
+#page_next_a:after {
+    display: none;
+}
+
+#page_prev_a img {
+    display: inline;
+}
+
+#page_next_a img {
+    display: inline;
+}
+
+#page_sem {
+    height: 55px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to left, #548BB0, #2D787C);
+}
+
+#page_sem_title {
+    color: white;
+    display: inline-block;
+    width: 70%;
+    margin-top: -24px;
+    transform: translateY(-20px);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tab-content {
+    min-height: 81vh;
+}
+
+#page_tail {
+    color: white;
+    background-image: linear-gradient(to left, #548BB0, #2D787C);
+    padding: 10px 100px;
+    font-size: 14px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+

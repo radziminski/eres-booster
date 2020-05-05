@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+      <style>
+        html {
+          font: 'Roboto', 'Arial', 'sens-serif';
+        }
+
+        h1 {
+          padding: 3px 5px;
+          background-color: #2D787C;
+          color: white;
+          font-size: 16px;
+          text-align: center;
+          font-weight: 500;
+        }
+
+        button {
+          display: block;
+          outline: none;
+          border: none;
+          padding: 5px 10px;
+          color: #333;
+          margin: 0 auto;
+          margin-top: 10px;
+          cursor: pointer;
+        }
+
+        .input-cont {
+            display: block;
+            padding: 5px 10px;
+        }
+
+      </style>
+    </head>
+    <body>
+        <h1 class="title">ERES 2.0</h1>
+        <div class="input-cont">Color primary: <input type="text" id="color-primary"/></div>
+        <div class="input-cont">Color secondary: <input type="text" id="color-secondary"/></div>
+        <div class="input-cont">Color text: <input type="text" id="color-text"/></div>
+        <button id="changeColor">Koloruj!</button>
+        <button id="defaultColors">Theme 1</button>
+        <script src="popup.js"></script>
+    </body>
+  </html>
